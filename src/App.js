@@ -1,25 +1,28 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+
 import './App.css';
+import Catalogue from './components/Catalogue/Catalogue';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const state = {
+		currentViewingNow: 3,
+		title: 'Ethnic Wear November 2017',
+		lastOpened: 'Last opened 2 mins ago',
+		visitors: 16,
+		unreadVisitors: 6,
+		inquiries: 10,
+		unreadInquiries: 2,
+		productUrls: 'https://www.google.com',
+		productCount: 14,
+	};
+
+	const [catalogueProps, setCatalogueProp] = useState(state);
+
+	return (
+		<div className="App">
+			<Catalogue {...catalogueProps} />
+		</div>
+	);
 }
 
 export default App;

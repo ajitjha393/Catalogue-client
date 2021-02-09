@@ -1,0 +1,95 @@
+.Container {
+	margin: 1rem;
+	padding: 1rem;
+	background-color: #33334d;
+	display: flex;
+	flex-flow: row nowrap;
+	font-size: 1rem;
+	font-weight: bold;
+	/* align-items: center; */
+	/* justify-content: center; */
+}
+
+.View {
+	color: white;
+	background-color: #ff6369;
+	margin: auto;
+	padding: 0.5rem 1rem;
+	width: 100px;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+h1 {
+	color: white;
+	margin: 1rem 0;
+}
+
+.white {
+	color: white;
+	padding: 0.5rem;
+	text-align: center;
+	font-size: 1.3rem;
+}
+
+.LastSeen {
+	color: #53ff1a;
+	margin-top: 1rem;
+	font-size: 1.3rem;
+}
+
+.pending {
+	color: white;
+	background-color: #ff6369;
+	margin: auto;
+	padding: 0.5rem 0.9rem;
+	width: 1.5rem;
+	font-size: 1.3rem;
+	display: inline-block;
+	border-radius: 1rem;
+}
+
+.stats {
+	padding: 1rem 0;
+	margin-top: 1rem;
+}
+
+.circle {
+	/* background-color: #333; */
+	border-radius: 70%;
+	padding: 0.5rem;
+	/* border: 1px solid #ccc; */
+	width: 2rem;
+}
+
+.share {
+	padding: 1rem;
+	display: inline-block;
+}
+
+.cart {
+	display: inline-block;
+	margin: 0 1rem;
+}
+
+.border {
+	border-radius: 50%;
+}
+
+.url {
+	margin: 0 2rem;
+	position: relative;
+}
+
+.count {
+	color: white;
+	padding: 0.5rem;
+	text-align: center;
+	font-size: 1.3rem;
+	background-color: black;
+	border-radius: 50%;
+	z-index: 1000;
+	position: absolute;
+	top: 60px;
+	right: 70px;
+}
