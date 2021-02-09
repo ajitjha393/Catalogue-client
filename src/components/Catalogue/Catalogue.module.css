@@ -1,6 +1,6 @@
 .Container {
 	margin: 1rem;
-	padding: 1rem;
+	padding: 1.5rem;
 	background-color: #242b36;
 	display: flex;
 	flex-flow: row nowrap;
@@ -14,10 +14,11 @@
 	color: white;
 	background-color: #db5557;
 	margin: auto;
-	padding: 0.5rem 1rem;
-	width: 100px;
+	padding: 0.8rem 1rem;
+	/* width: 100px; */
 	display: inline-block;
 	border-radius: 5px;
+	font-size: 1.1rem;
 }
 
 h1 {
@@ -126,9 +127,6 @@ img {
 	position: relative;
 }
 
-.footer {
-	/* margin-top: 0.5rem; */
-}
 .count {
 	color: black;
 	padding: 0.5rem;

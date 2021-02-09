@@ -26,6 +26,10 @@ const Catalogue = ({
 						<img
 							src="https://sx-web.firebaseapp.com/images/eye-fill.svg"
 							alt="icon"
+							width="30px"
+							style={{
+								textAlign: 'bottom',
+							}}
 						/>
 						<span className={classes.white}>{visitors}</span>
 					</span>

@@ -5,7 +5,7 @@ import Catalogue from './components/Catalogue/Catalogue';
 
 function App() {
 	const state = {
-		currentViewingNow: 3,
+		currentViewingNow: 2,
 		title: 'Ethnic Wear November 2017',
 		lastOpened: 'Last opened 2 mins ago',
 		visitors: 16,
