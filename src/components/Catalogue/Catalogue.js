@@ -49,30 +49,53 @@ const Catalogue = ({
 							<img
 								src="https://images.pexels.com/photos/5650050/pexels-photo-5650050.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
 								alt=""
-								width="150px"
-								height="150px"
-								className={classes.border}
+								width="80px"
+								height="80px"
+								className={classes.img1}
+							/>
+							<img
+								src="https://images.pexels.com/photos/5650050/pexels-photo-5650050.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+								alt=""
+								width="80px"
+								height="80px"
+								className={classes.img2}
+							/>
+							<img
+								src="https://images.pexels.com/photos/5650050/pexels-photo-5650050.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+								alt=""
+								width="80px"
+								height="80px"
+								className={classes.img3}
+							/>
+							<img
+								src="https://images.pexels.com/photos/5650050/pexels-photo-5650050.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+								alt=""
+								width="80px"
+								height="80px"
+								className={classes.img4}
 							/>
 						</a>
 					</div>
 					<span className={classes.count}>{productCount}</span>
 				</div>
 
-				<span className={classes.share}>
-					<img
-						src="https://sx-web.firebaseapp.com/images/share-fill.svg"
-						alt=""
-						width="50px"
-						height="60px"
-					/>{' '}
-				</span>
-				<span>
-					<img
-						src="https://sx-web.firebaseapp.com/images/whatsapp.svg"
-						alt=""
-						width="50px"
-					/>{' '}
-				</span>
+				<div className={classes.footer}>
+					<span className={classes.share}>
+						<img
+							src="https://sx-web.firebaseapp.com/images/share-fill.svg"
+							alt=""
+							width="50px"
+							height="60px"
+						/>{' '}
+					</span>
+					<span>
+						<img
+							src="https://sx-web.firebaseapp.com/images/whatsapp.svg"
+							alt=""
+							width="50px"
+						/>{' '}
+					</span>
+				</div>
 			</div>
 		</div>
 	);

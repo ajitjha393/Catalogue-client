@@ -68,28 +68,76 @@ h1 {
 }
 
 .cart {
-	display: inline-block;
+	/* display: inline-block; */
 	margin: 0 1rem;
 }
 
 .border {
 	border-radius: 50%;
+	/* position: absolute; */
+}
+
+img {
+	display: inline-block;
+}
+
+.img1 {
+	border-radius: 50%;
+	border: 2px solid white;
+	position: relative;
+	z-index: 40;
+	top: 30px;
+	right: 20px;
+}
+
+.img2 {
+	border-radius: 50%;
+	border: 2px solid white;
+
+	position: relative;
+	z-index: 30;
+	top: 20px;
+	right: 50px;
+}
+
+.img3 {
+	border-radius: 50%;
+	border: 2px solid white;
+
+	position: relative;
+	z-index: 20;
+	top: 80px;
+	right: 180px;
+}
+
+.img4 {
+	border-radius: 50%;
+	border: 2px solid white;
+
+	position: relative;
+	z-index: 10;
+	top: -20px;
+	right: -40px;
 }
 
 .url {
 	margin: 0 2rem;
+	/* margin-bottom: 3rem; */
 	position: relative;
 }
 
+.footer {
+	/* margin-top: 0.5rem; */
+}
 .count {
-	color: white;
+	color: black;
 	padding: 0.5rem;
 	text-align: center;
-	font-size: 1.3rem;
-	background-color: black;
+	font-size: 1.4rem;
+	background-color: white;
 	border-radius: 50%;
 	z-index: 1000;
 	position: absolute;
-	top: 60px;
-	right: 70px;
+	top: 80px;
+	right: 210px;
 }
