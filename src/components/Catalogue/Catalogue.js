@@ -16,7 +16,7 @@ const Catalogue = ({
 		<div className={classes.Container}>
 			<div>
 				<section className={classes.View}>
-					{currentViewingNow + ' viewing Now'}{' '}
+					{currentViewingNow + ' VIEWING NOW'}{' '}
 				</section>
 
 				<h1>{title}</h1>

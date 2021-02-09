@@ -1,18 +1,18 @@
 .Container {
 	margin: 1rem;
 	padding: 1rem;
-	background-color: #33334d;
+	background-color: #242b36;
 	display: flex;
 	flex-flow: row nowrap;
 	font-size: 1rem;
 	font-weight: bold;
-	/* align-items: center; */
+	align-items: center;
 	/* justify-content: center; */
 }
 
 .View {
 	color: white;
-	background-color: #ff6369;
+	background-color: #db5557;
 	margin: auto;
 	padding: 0.5rem 1rem;
 	width: 100px;
@@ -33,7 +33,7 @@ h1 {
 }
 
 .LastSeen {
-	color: #53ff1a;
+	color: #4da17b;
 	margin-top: 1rem;
 	font-size: 1.3rem;
 }
