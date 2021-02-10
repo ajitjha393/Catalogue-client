@@ -49,37 +49,39 @@ const Catalogue = ({
 
 			<div className={classes.url}>
 				<div>
-					<div className={classes.cart}>
-						<a href={productUrls}>
-							<img
-								src="https://images.pexels.com/photos/792772/pexels-photo-792772.jpeg?cs=srgb&dl=pexels-anastasiya-lobanovskaya-792772.jpg&fm=jpg"
-								alt=""
-								width="80px"
-								height="80px"
-								className={classes.img1}
-							/>
-							<img
-								src="https://images.pexels.com/photos/458669/pexels-photo-458669.jpeg?cs=srgb&dl=pexels-pixabay-458669.jpg&fm=jpg"
-								alt=""
-								width="80px"
-								height="80px"
-								className={classes.img2}
-							/>
-							<img
-								src="https://images.pexels.com/photos/128881/beautiful-girl-smiling-da-128881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-								alt=""
-								width="80px"
-								height="80px"
-								className={classes.img3}
-							/>
-							<img
-								src="https://images.pexels.com/photos/5650050/pexels-photo-5650050.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-								alt=""
-								width="80px"
-								height="80px"
-								className={classes.img4}
-							/>
-						</a>
+					<div className={`${classes.cart} ${classes.ImageComponent} `}>
+						<div className={classes.ImageComponent}>
+							<a href={productUrls}>
+								<img
+									src="https://images.pexels.com/photos/792772/pexels-photo-792772.jpeg?cs=srgb&dl=pexels-anastasiya-lobanovskaya-792772.jpg&fm=jpg"
+									alt=""
+									width="80px"
+									height="80px"
+									className={classes.img1}
+								/>
+								<img
+									src="https://images.pexels.com/photos/458669/pexels-photo-458669.jpeg?cs=srgb&dl=pexels-pixabay-458669.jpg&fm=jpg"
+									alt=""
+									width="80px"
+									height="80px"
+									className={classes.img2}
+								/>
+								<img
+									src="https://images.pexels.com/photos/128881/beautiful-girl-smiling-da-128881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+									alt=""
+									width="80px"
+									height="80px"
+									className={classes.img3}
+								/>
+								<img
+									src="https://images.pexels.com/photos/5650050/pexels-photo-5650050.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+									alt=""
+									width="80px"
+									height="80px"
+									className={classes.img4}
+								/>
+							</a>
+						</div>
 					</div>
 					<span className={classes.count}>{productCount}</span>
 				</div>
