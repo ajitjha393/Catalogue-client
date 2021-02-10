@@ -5,20 +5,7 @@ import './App.css';
 import Catalogue from './components/Catalogue/Catalogue';
 
 function App() {
-	const state = [
-		{
-			currentViewingNow: 2,
-			title: 'Ethnic Wear November 2017',
-			lastOpened: 'Last opened 2 minutes ago',
-			visitors: 16,
-			unreadVisitors: 6,
-			inquiries: 10,
-			unreadInquiries: 2,
-			productUrls: 'https://www.google.com',
-			productCount: 14,
-		},
-	];
-	const [catalogueState, setCatalogueState] = useState(state);
+	const [catalogueState, setCatalogueState] = useState([{}]);
 
 	useEffect(() => {
 		axios
