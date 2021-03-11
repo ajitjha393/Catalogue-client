@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 import './App.css';
-import Catalogue from './components/Catalogue/Catalogue';
+//import Catalogue from './components/Catalogue/Catalogue';
+import Catalogue from 'catalogue-qs';
+
 
 function App() {
 	const [catalogueState, setCatalogueState] = useState([{}]);
